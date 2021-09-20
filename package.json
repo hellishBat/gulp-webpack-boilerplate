@@ -1,0 +1,63 @@
+{
+  "name": "gulp-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp + Webpack Boilerplate (HTML, SCSS, ES Modules)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp prod --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentine-samoylov/gulp-webpack-boilerplate.git"
+  },
+  "author": "valentine.samoylov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentine-samoylov/gulp-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/valentine-samoylov/gulp-webpack-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.7",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "core-js": "^3.18.0",
+    "del": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.4.1",
+    "sass": "^1.41.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-stream": "^7.0.0",
+    "yargs": "^15.4.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
